@@ -33,7 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		79CDF83826098F2B009F897B /* Differ_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Differ_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79CDF83826098F2B009F897B /* Differ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Differ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79CDF83A26098F2B009F897B /* Differ_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Differ_iOS.h; sourceTree = "<group>"; };
 		79CDF83B26098F2B009F897B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		900E039F1DE7C3370033A799 /* Universal-Framework-Target.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Universal-Framework-Target.xcconfig"; sourceTree = "<group>"; };
@@ -163,7 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				C9838FF11D29571000691BE8 /* DifferTests.xctest */,
-				79CDF83826098F2B009F897B /* Differ_iOS.framework */,
+				79CDF83826098F2B009F897B /* Differ.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -201,9 +201,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		79CDF83726098F2B009F897B /* Differ-iOS */ = {
+		79CDF83726098F2B009F897B /* Differ */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 79CDF83F26098F2B009F897B /* Build configuration list for PBXNativeTarget "Differ-iOS" */;
+			buildConfigurationList = 79CDF83F26098F2B009F897B /* Build configuration list for PBXNativeTarget "Differ" */;
 			buildPhases = (
 				79CDF83326098F2B009F897B /* Headers */,
 				79CDF83426098F2B009F897B /* Sources */,
@@ -214,9 +214,9 @@
 			);
 			dependencies = (
 			);
-			name = "Differ-iOS";
+			name = Differ;
 			productName = "Differ-iOS";
-			productReference = 79CDF83826098F2B009F897B /* Differ_iOS.framework */;
+			productReference = 79CDF83826098F2B009F897B /* Differ.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C9838FF01D29571000691BE8 /* DifferTests */ = {
@@ -269,7 +269,7 @@
 			projectRoot = "";
 			targets = (
 				C9838FF01D29571000691BE8 /* DifferTests */,
-				79CDF83726098F2B009F897B /* Differ-iOS */,
+				79CDF83726098F2B009F897B /* Differ */,
 			);
 		};
 /* End PBXProject section */
@@ -539,7 +539,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		79CDF83F26098F2B009F897B /* Build configuration list for PBXNativeTarget "Differ-iOS" */ = {
+		79CDF83F26098F2B009F897B /* Build configuration list for PBXNativeTarget "Differ" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				79CDF83D26098F2B009F897B /* Debug */,
